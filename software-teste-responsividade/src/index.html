@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Emulador de responsividade</title>
+    <!--css-->
+    <link rel="stylesheet" href="assets/css/theme.css" />
+  </head>
+  <body>
+    <section class="theme">
+      <div class="content-left">
+        <div class="container-input">
+          <input type="text" id="urlInput" placeholder="https://exemplo.com" />
+          <button class="button" onclick="exibirSite()">Exibir Site</button>
+          <div class="textarea-container">
+            <textarea
+              class="textarea-content"
+              id="inspectedContent"
+              readonly
+            ></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="content-right">
+        <div id="siteFrameContainer">
+          <div class="screen">
+            <div class="notch"></div>
+            <iframe
+              id="siteFrame"
+              src=""
+              frameborder="0"
+              sandbox="allow-scripts"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--scripts-->
+    <script src="assets/js/theme.js"></script>
+  </body>
+</html>

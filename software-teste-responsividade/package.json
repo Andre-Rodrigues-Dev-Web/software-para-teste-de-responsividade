@@ -1,0 +1,20 @@
+{
+  "name": "software-teste-responsividade",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "André Laurentino Rodrigues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Andre-Rodrigues-Dev-Web/software-para-teste-de-responsividade.git"
+  },
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^30.0.8"
+  }
+}
